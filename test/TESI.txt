@@ -1,0 +1,88 @@
+ : Introduzione allo logica dello spazio
+
+: Acustica di san Luca: ricorstruzione e perdita
+
+: Appunti sul Marmo
+
+
+
+
+
+
+LUOGO
+
+
+
+1) Acustica di San Luca:   ricostruzione e perdita 
+
+
+Nel processo di  scelta ed elaborazione del materiale sonoro volto alla costruzione del brano, m'è subito apparso ovvio intraprendere il cammino partendo non tanto dalle qualità timbriche del sassofono o dall'astratta struttura e forma del brano, quanto dalle qualità intrinseche del luogo come La chiesa di San Luca e Martina.
+
+L'analisi di questo sistema acustico1 è incentrato nella sua ricostruzione tridimensionale, virtualizzazione delle sue componenti, successivamente stratificate alla sala da concerto, assieme alla registrazione dell'environment: anche per quest'ultimo sarà posto l'accento sulla possibile riproduzione tridimensionale.
+
+[discorso riverbero non come elaborazione dell'amplificazione ma come costruzione delle riflesioni ambientali. Le distanze hai 4 stone identisci cosi da dislocare gli altoparlanti facilmente]. Posto simmetrico posto. Filmarmonica in
+
+
+-Cenno storico/scientifico
+
+Progettata nel 1635 da Pietro Berrettini da Cortona, la chiesa  è composta da un unitaria pianta cruciforme, che poggia sul titolo primitivo di Santa Martina, fondata nel VII secolo da papa Onorio I, frontale all'arco di Settimio Severo. 
+E stato di fondamentale importanza pensare anche all'analisi dello spazio sottostante:
+
+
+Pianta di san luca
+
+
+I due luoghi comunicano tramite il lucernario di Santa Martina e la scelta  di portare sopra di esso l'altoparlante per l'indagine acustica, riguarda anche la ripresa delle riflessioni che avvengono nella chiesa inferiore e modificano l'ambiente sovrastante.
+Per quanto riguarda i materiali è stato fatto affidamento alle fonti trovate all'accademia di San Luca, nell'ipotesi di un nuovo sopralluogo e determinare, in base alle percentuali di materiale nelle varie sezioni della chiesa il relativo livello di assorbimento della chiesa e i conseguenti tempi delle prime  riflessioni
+
+
+
+
+Materiali  preponderanti della chiesa
+
+1) mattoni cotto
+
+2) marmo
+
+I fenomeni principali acustici che vengono posti all'analisi riguardano:
+
+a) il campo libero, ovvero la distanza tra lo strumento/sorgente e gli ascoltatori. 
+Stiamo parlando del confronto con il suono diretto e recepito dall'ascoltatore. Possiamo calcolarlo come:
+
+
+ file 001
+
+
+
+I= intensità del suono diretto calcolato in watts per m2
+
+Q=direzionalità della sorgente 
+
+W= potenza della sorgente calcolata in watt
+
+r= Distanza in m2
+
+
+b)Il campo riverberante, ovvero l'energia successiva a quella diretta; prime riflessioni e coda.
+Ricordiamo che le prime riflessioni differiscono dal suono diretto sia per tempo (circa 80ms) che direzione:
+
+
+"The amount of energy, or power, removed by a given area of absorbing material will depend on the energy, or power, per unit area striking it. As the sound intensity is a measure of the power per unit area this means that the intensity of the sound reflected is reduced in proportion to the absorption coefficient."
+
+importante è anche sottolineare come i materiali descritti in precedenza siano analizzati e ricondotti ad una misurazione della riflessione “regionale”, specifica ai punti del quadrato, raccogliendo informazioni riguardo alle differenti future risposte registrate.
+
+[Lp ≅LW +10logA4]
+
+Le mappe, descritte successivamente, riconducono a scelte di preparazione date dalla conformazionse della prima sala ove sarà eseguito il brano per la prima volta. Il sassofonistainterprete si trovava ad una distanza di circa la metà dei metri cui sono stati disposti i microfoni per catturare le  riflessioni dello spazio.
+
+
+
+2) nota a piè pagina Acoustic and Psychoacoustic - Applied Part I Listening room design p. 7 D. Howard and jamie
+
+
+Il riverbero e le riflessioni della stanza sono il nostro argomento principale, ma l'analisi vedrà solo l'attuazione di determinati punti sonori in regime e non tutta la pianta.
+Schroeder a questo proposito spiega come [DA SCRIVERE MEGLIO misura del ltempo di riverbero p. 15 /farina] è possibile ricavare il tempo di decadimento (T60) tramite integrale della risposta all'impulso.
+
+
+
+
