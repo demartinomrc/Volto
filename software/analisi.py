@@ -19,7 +19,9 @@ class Analisi:
     	harmDevSlope: allowed deviation of harmonic tracks, higher harmonics have higher allowed deviation
     	stocf: decimation factor used for the stochastic approximation
     	returns inputFile: input file name; fs: sampling rate of input file,
-    	        hfreq, hmag: harmonic frequencies, magnitude; mYst: stochastic residual
+    	hfreq, hmag: harmonic frequencies, magnitude;
+        mYst: stochastic residual
+        fs: sampling frequencies
     	"""
         self.filename=fname
         self.window="blackman"
@@ -34,17 +36,24 @@ class Analisi:
         self.harmDevSlope= 0.01
         self.stocf= 0.1
         self.hfreq=self.hmag=self.hphase=self.mYst=[]
+        self.set_file(self.filename)
+
+    def set_file(self,fname):
+        self.filename= fname
+        (self.fs,self.signal) =V.UF.wavread(self.filename)
         
+                
+    def halfwin(self):
+        return self.finestraesterna/2 
         
+    def hopsize(self):
+        return self.halfwin()/4
         
     def analyze(self):
-        (fs, x) =V.UF.wavread(self.filename)
-        Ns = self.finestraesterna/2
         
-        H = Ns/4
-        
+      
         w = V.get_window(self.window,self.finestrainterna)
         
-        self.hfreq,self.hmag,self.hphase,self.mYst= V.HPS.hpsModelAnal(x, fs, w, self.finestraesterna, H, self.threshold, self.maxharmonics, self.minf0, self.maxf0, self.f0et, self.harmDevSlope, self.minSineDur, Ns, self.stocf)
+        self.hfreq,self.hmag,self.hphase,self.mYst= V.HPS.hpsModelAnal(self.signal, self.fs, w, self.finestraesterna, self.hopsize(), self.threshold, self.maxharmonics, self.minf0, self.maxf0, self.f0et, self.harmDevSlope, self.minSineDur, self.halfwin(), self.stocf)
         
         

@@ -1,0 +1,10 @@
+import unittest
+import test_helper
+import volto
+import analisi as A
+
+class TestAnalisi(unittest.TestCase):
+
+    def test_creation(self):
+        self.assertTrue(A.Analisi("../suoni/Salvatore.wav"))
+        
