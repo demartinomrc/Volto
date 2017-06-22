@@ -1,13 +1,13 @@
+import numpy as np
+
 class Parziale:
     
-    def __init__(self,k,at):
-        self.freq=NdAarray()
-        self.mag=NdArray()
+    def __init__(self,k):
+        self.slices=np.array([])
         self.index=k
-        self.at=at
-        self.dur=0.0
-        self.phase=NdArray()
         
-      
         
+    def slice_append(self,s):
+        self.slices= np.append(self.slices,[s]) 
+            
          

@@ -2,26 +2,30 @@ import unittest
 import test_helper
 import volto
 import parziale as P
+import slice as S
 
 class TestParziale(unittest.TestCase):
 
     def test_creation(self):
-        self.assertTrue(P.Parziale(100,20))
+        self.assertTrue(P.Parziale(1))
         
         
     def test_get(self):
-        p = P.Parziale(100,20)
-        self.assertEqual(p.freq,100)
-        self.assertEqual(p.mag,20)
+        p = P.Parziale(1)
+        self.assertEqual(p.index,1)
         
         
-    def test_set(self):
-        p = P.Parziale(100,20)
-        p.freq=300
-        p.mag= -20
-        self.assertEqual(p.freq,300)
-        self.assertEqual(p.mag,-20)
         
+    def test_slice_append(self):
+        
+        p = P.Parziale(1)
+        s= S.Slice(300,-20,3,1)
+        p.slice_append(s)
+        self.assertEqual(p.slices.size,1)
+        self.assertEqual(p.slices[0].freq,s.freq)
+        self.assertEqual(p.slices[0].mag,s.mag)     
+        
+           
         
     
 if __name__ == '__main__':
